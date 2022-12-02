@@ -1,0 +1,11 @@
+<?php
+$names=$_POST ['name'];
+$phone=$_POST ['phone'];
+
+$subject="=?utf-8?B?".base64_encode("Повідомлення із сайту")."?=" ;
+
+
+$success mail("jurist_veronika@ukr.net",$subject);
+echo $success;
+
+?>

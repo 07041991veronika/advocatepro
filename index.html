@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advocate_pro</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script type="text/javascript">
+        (function() {
+            var preload = document.getElementById("preloader");
+            var loading = 0;
+            var id = setInterval(frame, 64);
+
+        function frame() {
+            if (loading == 100) {
+        clearInterval(id);
+            } else {
+            loading = loading + 1;
+            if (loading == 90) {
+          preload.style.opacity = "0";
+        }
+      }
+    }
+  })();
+    </script>
+   
+</head>
+<body >
+    <header class="container header" >
+    <div class="header" >
+        <li class="header_li"> 
+            Адвокат
+            Співак
+            Вероніка
+            Вікторівна 
+        </li>
+        <line class="header_line">
+        </line>
+        <div class="header_help" >
+            Юридична допомога 
+            у перерахунку 
+            військових пенсій
+        </div> 
+        <div class="header_phone">
+            +38(098)3715574
+        </div>
+        <div>
+            <h1 class="main_title">
+                ДОПОМОГАЮ    ЗАКОННО ЗБІЛЬШИТИ   
+                ВІЙСЬКОВУ ПЕНСІЮ
+               ЗСУ - МВС- ДСНС - СБУ
+               та інші силові відомства
+            </h1>
+            <div>
+                <img class="main_button_img" src="./img/терези кнопка 1.png" alt="">
+                <button class="main_button">
+                    <a href="#openModal"> <div class=style_main_button>  ОТРИМАТИ КОНСУЛЬТАЦІЮ  </div> </a>
+                </button> 
+                 
+                  <div id="openModal" class="modal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h3 class="modal-title">Задати питання адвокату</h3>
+                          <a href="#close" title="Close" class="close">×</a>
+                        </div>
+                        <div class="modal-body">    
+                          <p>
+                            <div class = "content_title_underline"></div>
+                            <p class = "popup_form_subtitle">Залишість свій контактний номер  і я зателефоную Вам на протязі 15 хвилин!</p>
+                        </p>
+                        <form id="mainForm" action="/" method="post" class="wpcf7-form" >
+                            <div style="display: none;">
+                            <input type="hidden" name="utm_source" value=>
+                            <input type="hidden" name="utm_medium" value=>
+                            <input type="hidden" name="utm_content" value=>
+                            <input type="hidden" name="utm_campaign" value=>
+                            <input type="hidden" name="utm_term" value=>
+                            <input type="hidden" name="referer" value=https://www.google.com/>
+                            <input type="hidden" name="form" value="popup" />
+                            </div>
+                            <div class = "popup_form_wrapper"><span class="wpcf7-form-control-wrap client-name">
+                            <input type="text" id="names" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required popup_form_name" aria-required="true" aria-invalid="false" 
+                            placeholder="Введіть Ваше ім'я" /></span></div>
+                            <div class = "popup_form_wrapper"><span class="wpcf7-form-control-wrap client-phone">
+                            <input type="tel" id="phone" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel popup_form_phone" aria-required="true" aria-invalid="false" 
+                            placeholder="Ваш номер телефону" required /></span></div>
+                            <div class = "popup_form_wrapper popup_form_wrapper_button">
+                            <input type="button"  value="Перезвоніть мені" id="sendMail" class="wpcf7-form-control wpcf7-button popup_form_button" /></div>
+                            <!-- 
+                            <p><span class="wpcf7-form-control-wrap page-name">
+                            <input type="text" name="page-name" value="Назва" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required main_form_page_name hidden_input" aria-required="true" aria-invalid="false" /></span><br />
+                            <span class="wpcf7-form-control-wrap form-name">
+                            <input type="text" name="form-name" value="Замовити здвінок" size="40" class="wpcf7-form-control wpcf7-text hidden_input" aria-invalid="false" /></span></p>
+                            -->
+                            <div class="wpcf7-response-output wpcf7-display-none"></div>
+                            </form>
+                            <div id="errorMess"></div>
+                            </div></div></div></div></div></div>
+                            </button>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+            <div class="header_femida">
+                <img src="./img/image 1.png" alt="">
+            </div>
+        </div>
+        <div class="header_footer">
+            <div>
+            <img class="fotterikonsupper_img" src="./img/ikonsupper2.png">
+            </div>
+            <div class=" footersuppericon_text">
+            <li class="header_footer_li"> 
+                <h5> Якість та порядність</h5>
+                <h5> Допомогла багатьом клієнтам збільшити</h5> 
+                <p>розмір  віськової пенсії. Допоможу і Вам </p>  
+             </li>
+            </div>
+            <div class=" footersuppericon_text"> 
+                <img class="fotterikonseif_img" src="./img/ikonseif.png">
+            </div>
+            <li class="header_footer_li"> 
+                <h5>Дистанційність 
+                Вдалий досвід віддаленої роботи економить Ваш час і кошти
+                </h5>
+            </li>
+            <div class=" footersuppericon_text"> 
+                <img class="fotterharantia_img" src="./img/harantia.png">
+            </div>
+            <li class="header_footerharantia_li">
+                <h5>
+                    Гарантований    
+                    результат 
+                    <p> підтримка 24/7</p>             
+                </h5>
+            </li> 
+        </div>
+    </div>
+
+    <div class="info">
+        <li class="info_rialmany"> 
+        Мої клієнти отримують реальну виплату нової пенсії   
+        </li>
+    </div >
+        <div  class ="info_femida">
+            <img class="info_femida_img" src="./img/info_femida_img.png"> 
+        </div>
+        <div class ="info_femida_nadbavka"></div> 
+            <li class ="text_femida_nadbavka">
+                перерахунок пенсії з урахуванням всіх надбавок і доплат з 05.03.2019
+            </li>
+        <div class ="info_femida_zbilshenna_vidsotky"></div>
+            <li class ="text_femida_zbilshenna_vidsotky">
+                перерахунок пенсії починаючи з 2018 року в розмірі з 70 % до
+                90 % грошового забезпечення для військовослужбовців 
+            </li>
+        <div class ="info_femida_oklady"></div>
+            <li class ="text_femida_oklady">
+                перерахунок грошового забезпечення
+                з урахуванням  прожиткового мінімуму 2021 року 
+            </li>  
+        <div class ="info_femida_granuchnyu_rozmir"> </div> 
+            <li class ="text_femida_granuchnyu_rozmir">
+                зняття обмеження граничного розміру військової 
+                пенсії   
+            </li>  
+    </div>
+    <div class="vuhrani_spravu">
+        <li class="main_vuhrani_spravu"> 
+            Виграні справи 
+        </li>
+        <div  class="vuhrani_spravu_strushko">
+            <img class="vuhrani_spravu_strushko_img" src="./img/vuhrani_spravu_strushko.png"> 
+        </div>
+            <li class ="text_vuhrani_spravu_strushko">
+                збільшення пенсії з 7400 грн. до 11343 грн.
+            </li>
+        <div  class="vuhrani_spravu_boclasuk">
+            <img class="vuhrani_spravu_boclasuk_img" src="./img/boclasuk.png"> 
+         </div>
+            <li class ="text_vuhrani_spravu_boclasuk">
+                збільшення пенсії з 4000 грн. до 6800 грн.
+            </li>
+            </div>
+            
+    <div class="about_me">
+        <img class="my_foto_img" src="./img/my_foto_img.png"> 
+    </div>
+    <div>
+        <img class="ikonfb" src="./img/ikonfb.png"> 
+    </div>  
+        <li class="link_fb">
+            https://www.facebook.com/juristveronika
+        </li>
+    <div> 
+        <img class="ikoninstagram" src="./img/ikoninstagram.png"> 
+    </div> 
+        <li class="link_instagram">
+            https://www.instagram.com/veronika070491/
+        </li> 
+    <p class="my_addres">
+        Вінницька обл, м. Жмеринка,
+        вул. Горького 3/34                                                         
+    </p>
+    <p class="my_e-mail">
+        e-mail: jurist_veronika@ukr.net   
+    </p>
+    <p class="my_advocasy_svidotstvo">
+        Свідоцтво про право на зайняття адвокатською діяльністю  
+        Серія  ВН N  000925
+        видане Радою адвокатів Вінницької області  29.07.2022
+    </p>
+    <p class="ERAY_advocasy_svidotstvo">
+        ЄДИНИЙ РЕЄСТР АДВОКАТІВ УКРАЇНИ
+    </p>
+    <p class="Link_ERAY_advocasy_svidotstvo">
+        https://erau.unba.org.ua/profile/86946
+    </p>
+
+    <div> </div>     
+</header>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="js/formMail.js></script>
+
+
+</body>
+</html>
